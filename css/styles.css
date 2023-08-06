@@ -1,0 +1,181 @@
+:root {
+    --brand-background-primary:#E7E9FC;
+    --brand-background-secondary: #2E2F42;
+    --brand-background-third:#F4F4FD;
+    --brand-button-primary:#4D5AE5;
+    --brand-button-secondary:#E7E9FC;
+    --brand-text-primary:color: #2E2F42;
+    --brand-text-secondary:#434455;
+    --main-hover-color: #4D5AE5;
+    --main-hover-text-color: #FFFFFF;
+    --main-font-size: 16px;
+    --main-line-height: 1.5;
+    --main-logo-color: #4d5ae5;
+    --hover-focus-color: #404bbf;
+    --header-color: #2e2f42;
+    --text-color: #434455;
+}
+a {
+        text-decoration: none;
+}
+
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+.logo-span{
+        color: var(--main-logo-color);
+}
+.logo-bottom-span{
+        color:#FFFFFF
+}
+.section-team{
+        background-color: var(--brand-background-third);
+}
+.menu.link {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        font-weight: 500;
+        text-decoration: none;
+}
+.list a:hover {
+        color: var(--hover-focus-color);
+}
+.list a:focus {
+        color: var(--hover-focus-color);
+}
+.menu :hover,
+.menu :focus {
+        color: #404bbf;
+}
+.navigation-panel .contact.link:hover,
+.navigation-panel .contact.link:focus {
+        color: #404bbf;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+        color:#FFFFFF;
+        background-color:#4D5AE5;
+        cursor:pointer;
+}
+.button-order {
+        cursor: pointer;
+        color:#FFFFFF;
+        background-color: var(--brand-button-primary);
+        font-family: "Roboto", sans-serif;
+}
+.button-order:hover,
+.button-order:focus {
+        background-color:  #404BBF;
+        color:white;
+}      
+.panel-bottom {
+        background-color: var(--brand-background-secondary);
+}
+
+.navigation-panel .logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+.navigation-panel .address {
+        font-style: normal;
+        color: #2e2f42;
+}
+.logo:visited {
+        color:#2E2F42;
+}
+.menu {
+        color:var(--brand-text-primary);
+        font-size: var(--main-font-size);
+        font-weight: 500;
+        line-height: var(--main-line-height);
+        letter-spacing: 0.02;
+}
+
+.contact {
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
+        letter-spacing: 0.02;
+        color:var(--brand-text-secondary);
+}
+
+.header-primary {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color:#FFFFFF;
+}
+
+.button-order {
+        background:var(--brand-button-primary);
+        color:#FFFFFF;
+        font-size: var(--main-font-size);
+        font-weight: 500;
+        line-height: var(--main-line-height);
+        letter-spacing: 0.04em;
+}
+.footer-text {
+        color:#F4F4FD;
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.main-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--header-color);
+}
+.header-secondary {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.list {
+        list-style: none;
+}
+.text-body {
+        color: var(--brand-text-secondary);
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+.button-portfolio {
+        color: var(--brand-button-primary);
+        background-color:#F4F4FD;
+        border:1px solid var(--brand-button-secondary);
+        font-size: var(--main-font-size);
+        font-weight: 500;
+        line-height: var(--main-line-height);
+        font-family:inherit;
+        letter-spacing: 4%;
+}
+ul {
+        list-style:none;
+        text-decoration: none;
+}
+.main-description {
+        color:var(--text-color);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
