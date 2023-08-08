@@ -54,13 +54,11 @@ a {
         color: #404bbf;
 }
 .navigation-panel .logo {
-        font-family: "Raleway", sans-serif;
+        font-family: "Raleway";
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
 }
 .navigation-panel{
         margin-left: 156px;
@@ -120,9 +118,7 @@ a {
         text-decoration: none;
         display: inline;
 }
-.list a:hover {
-        color: var(--hover-focus-color);
-}
+.list a:hover,
 .list a:focus {
         color: var(--hover-focus-color);
 }
@@ -174,16 +170,17 @@ a {
         cursor: pointer;
         color:#FFFFFF;
         background-color: var(--brand-button-primary);
-        font-family: "Roboto", sans-serif;
-        display: inline;
+        font-family: "Roboto";
         width:169px;
         height:56px;
         padding:16px;
         border-radius: 4px;
-        background: var(--brand-button-primary);
         letter-spacing: 0.04em;
         display: block;
         margin: 48px auto;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border: none;
+
 }
 .button-order:hover,
 .button-order:focus {
@@ -191,63 +188,67 @@ a {
         color:white;
 }      
 .header-secondary {
-        font-weight: 700;
+        color: #2e2f42;
         font-size: 36px;
+        font-weight: 700;
         line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #2e2f42;
         text-transform: capitalize;
         text-align: center;
-        display: flex;
-        justify-content: center;
+        margin: 0px;
+        margin-bottom: 72px;
         }
 .team-container{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+.list-team{
         display: flex;
-        width: 232px;
-        flex-direction: column;
+        gap: 24px;
         justify-content: center;
-        align-items: center;
-        gap: 8px;
+        margin: 0;
+        padding: 0;
 }
 .list-secondary{
-        padding: 72px 24px 120px;
         display: flex;
         margin: 0 auto;
-        width: 1128px;
-        height: 412px;
         gap:24px;
+        justify-content: center;
 }
 
 .section-team{
         background-color: var(--brand-background-third);
-        width:1440px;
-        height:732px;
+        padding: 120px 0;
+
         
 }
-.main-list {
-        width: 264px;
+.feature-list {
         display: flex;
-        flex-wrap: wrap;
         gap: 24px;
-        max-width: 1128px;
-        margin: 120px auto;
+        margin: 0px;
+        padding: 0px
 }
-.main-title {
-        font-weight: 500;
+.feature {
+        color: var(--header-color);
         font-size: 20px;
+        font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--header-color);
-        padding-bottom: 8px;
+        margin-bottom: 8px;
+        margin-top: 0px;
   }
    
-.text-body {
+.feature-description {
         color: var(--brand-text-secondary);
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         color: var(--text-color);
-        padding:32px 0;
+        margin: 0px;
+}
+.section-feature{
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 .portfolio-button-list{
 align-items: center;
@@ -278,15 +279,16 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.section-team .container-secondary{
+.section-feature .container-secondary{
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        max-width: 1128px;
-        margin-bottom: 120px;
         margin-top: 72px;
+        padding-top:0px
 }
-
+.section-secondary{
+                margin-bottom: 120px;
+}
 
 /* end main section*/
 
@@ -294,30 +296,18 @@ ul {
 
 .container-footer{
         display:flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 264px;
-        height: 112px;
-        padding-bottom:100px;
-        flex-wrap: wrap;
-
-}
-.logo-footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top: 100px;
-        gap: 16px;
 }
 .panel-footer {
         background-color: var(--brand-background-secondary);
-        width: 1140px;
-        height: 312px;
+        padding: 100px 0;
 }.footer-text {
         color:#F4F4FD;
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
+        width: 264px;
+        margin: 0px;
+        margin-top: 16px;
 }
 
 
