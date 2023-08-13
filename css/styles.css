@@ -61,14 +61,17 @@ a {
         letter-spacing: 0.03em;
 }
 .navigation-panel{
-        margin-left: 156px;
-        margin-top: 24px;
-        margin: 0 auto;
-        padding: 0 15px;
+         border-bottom: 1px solid var(--brand-background-primary);
+}
+.navigation-container{
         display: flex;
         align-items: center;
-        border-bottom: 1px solid var(--brand-background-primary);
-        }
+}
+.nav{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+}
 
 .navigation-panel .address {
         font-style: normal;
@@ -90,6 +93,9 @@ a {
         letter-spacing: 0.02;
         color:var(--brand-text-secondary);
 }
+.contacts {
+        margin-right: 332px;
+}
 .logo {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -98,11 +104,8 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        margin-right: 76px;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
 }
 .logo-span{
         color: var(--main-logo-color);
@@ -130,19 +133,14 @@ a {
         list-style: none;
         display: flex;
         gap:40px; 
-        padding:24px 40px;
+        padding: 24px 0;
+        margin: 0;
+        margin-left: 76px;
 }
 /* end header section */
 
 /* start main section*/
 
-.portfolio-button:hover,
-.portfolio-button:focus {
-        color:#FFFFFF;
-        background-color:#4D5AE5;
-        cursor:pointer;
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
 .panel-top {
         background-color: var(--brand-background-secondary);
         max-width: 1140px;
@@ -250,25 +248,90 @@ a {
         padding-top: 120px;
         padding-bottom: 120px;
 }
+
+/* start potfolio page*/
+
 .portfolio-button-list{
-align-items: center;
-justify-content: center;
+        align-items: center;
+        justify-content: center;
         display: flex;
+        gap: 24px;
+        list-style-type: none;
+        margin-bottom: 72px;
+        padding-left: 0px;
 }
 .portfolio-button {
         color: var(--brand-button-primary);
-        background-color:#F4F4FD;
+        background-color:var(--brand-background-third);
         border:1px solid var(--brand-button-secondary);
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
         font-family:inherit;
         letter-spacing: 4%;
+        border-radius: 4px;
         padding: 12px 24px;
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 72px;
+        margin-right:24px;
+        
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+        color:#FFFFFF;
+        background-color:#4D5AE5;
+        margin-bottom: 72px;
+        border-color:var(--hover-focus-color) ;
+        cursor:pointer;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.portfolio-section{
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
+.cards-list{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 24px;
+        margin: 0;
+        padding: 0;
+}
+.cards-list li:hover{
+        box-shadow: var(--portfolio-shadow);
+        cursor: pointer;
+}
+.cards-list >li {
+        flex-basis: calc((100% - 48px) / 3);
+}
+.cards-list img {
         display: block;
-      
+}
+.card-description{
+        background-color: #FFFFFF;
+        border:1px solid var(--cornflower, #E7E9FC);    
+        border-top:none;    
+        padding: 32px 16px;
 }
 
+/*end portfolio page/
+/* end main section*/
 ul {
         list-style:none;
         text-decoration: none;
@@ -290,7 +353,7 @@ ul {
                 margin-bottom: 120px;
 }
 
-/* end main section*/
+
 
 /* start footer section*/
 
