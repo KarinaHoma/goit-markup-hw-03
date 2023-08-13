@@ -246,7 +246,26 @@ a {
 }
 .section-feature{
         padding-top: 120px;
-        padding-bottom: 120px;
+}
+ul {
+        list-style:none;
+        text-decoration: none;
+}
+.main-description {
+        color:var(--text-color);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.section-feature .container-secondary{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 72px;
+        padding-top:0px
+}
+.section-secondary{
+                margin-bottom: 120px;
 }
 
 /* start potfolio page*/
@@ -257,7 +276,6 @@ a {
         display: flex;
         gap: 24px;
         list-style-type: none;
-        margin-bottom: 72px;
         padding-left: 0px;
 }
 .portfolio-button {
@@ -270,19 +288,15 @@ a {
         font-family:inherit;
         letter-spacing: 4%;
         border-radius: 4px;
-        padding: 12px 24px;
-        display: flex;
-        align-items: flex-start;
+        text-align: center;
         gap: 24px;
-        margin-bottom: 72px;
-        margin-right:24px;
+        padding: 12px 24px;
         
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
         color:#FFFFFF;
         background-color:#4D5AE5;
-        margin-bottom: 72px;
         border-color:var(--hover-focus-color) ;
         cursor:pointer;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
@@ -302,7 +316,7 @@ a {
 }
 .portfolio-section{
         padding-top: 96px;
-        padding-bottom: 120px;
+        padding-bottom: 72px;
 }
 .cards-list{
         list-style-type: none;
@@ -332,26 +346,6 @@ a {
 
 /*end portfolio page/
 /* end main section*/
-ul {
-        list-style:none;
-        text-decoration: none;
-}
-.main-description {
-        color:var(--text-color);
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-.section-feature .container-secondary{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
-        margin-top: 72px;
-        padding-top:0px
-}
-.section-secondary{
-                margin-bottom: 120px;
-}
 
 
 
