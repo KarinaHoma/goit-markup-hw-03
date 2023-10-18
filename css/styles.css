@@ -42,7 +42,9 @@ ul {
 }
 
 /* end global reset */
-
+img {
+  display: block;
+}
 a {
   text-decoration: none;
 }
