@@ -56,6 +56,13 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+.top-line {
+  border-bottom: 1px solid #e7e9fc;
+}
+.navigation-header {
+  display: flex;
+  align-items: center;
+}
 .navigation-panel .contact.link:hover,
 .navigation-panel .contact.link:focus {
   color: #404bbf;
@@ -69,7 +76,6 @@ a {
   align-items: center;
   margin-right: auto;
 }
-
 .logo:visited {
   color: #2e2f42;
 }
@@ -86,6 +92,7 @@ a {
   text-transform: uppercase;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px;
   color: var(--Primary-Brand);
 }
 address {
@@ -266,6 +273,15 @@ Main section*/
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
+.menu {
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .menu:hover,
 .menu:focus,
 .navigation-panel .contact.link,
@@ -289,15 +305,7 @@ Main section*/
 
 /*Portfolio
 Second main section*/
-.menu {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--Dark);
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
+
 .feature {
   font-size: 20px;
   line-height: 1.2;
