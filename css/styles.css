@@ -124,6 +124,9 @@ span {
   padding: 24px 0;
   margin: 0;
   margin-left: 76px;
+  margin-bottom: 72px;
+  justify-content: center;
+  gap: 24px;
 }
 
 /*Index
@@ -245,12 +248,10 @@ Fourth main section*/
   text-align: center;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 72px;
 }
 .cards {
   margin-bottom: 8px;
-}
-.team {
-  margin-bottom: 72px;
 }
 .team-card > li {
   background-color: #fff;
@@ -266,6 +267,10 @@ Fourth main section*/
 
 /*Portfolio
 Main section*/
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .portfolio-list {
   align-items: center;
   justify-content: center;
@@ -297,6 +302,10 @@ Main section*/
   background-color: var(--Pressed-state);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}
+.cards-feature {
+  width: calc((100% - 48px) / 3);
 }
 .menu {
   font-size: var(--main-font-size);
@@ -352,6 +361,11 @@ Second main section*/
 }
 .cards-list img {
   display: block;
+}
+.card-description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
 }
 .feature-description {
   font-size: 16px;
