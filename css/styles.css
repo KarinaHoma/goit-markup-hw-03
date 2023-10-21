@@ -98,6 +98,9 @@ a {
   justify-content: center;
   gap: 40px;
 }
+.list-menu {
+  gap: 40px;
+}
 address {
   font-style: normal;
   color: var(--Dark);
