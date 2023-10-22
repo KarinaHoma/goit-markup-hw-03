@@ -253,13 +253,8 @@ Fourth main section*/
 Main section*/
 .main-section {
   padding-top: 96px;
-  padding-bottom: 72px;
-}
-.portfolio-list {
-  align-items: center;
+  padding-bottom: 120px;
   justify-content: center;
-  gap: 24px;
-  list-style-type: none;
   text-wrap: nowrap;
 }
 .button-portfolio {
