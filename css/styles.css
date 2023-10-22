@@ -165,9 +165,7 @@ Second main section*/
   gap: 24px;
   list-style: none;
 }
-.workder-name {
-  padding: 32px 0px;
-}
+
 .list-secondary {
   width: calc((100% - 72px) / 4);
 }
@@ -227,18 +225,12 @@ Fourth main section*/
   padding-bottom: 0ch;
   text-align: center;
 }
-- + .team-card {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  width: calc((100% - 72px) / 4);
+.team-card {
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 72px;
 }
-
+.team-container {
+  padding: 32px 0px;
+}
 .header-our-team {
   font-size: 36px;
   line-height: 1.2;
@@ -357,7 +349,6 @@ Second main section*/
   display: block;
 }
 .card-description {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
