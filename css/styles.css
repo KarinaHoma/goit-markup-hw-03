@@ -255,7 +255,7 @@ Main section*/
   padding-top: 96px;
   padding-bottom: 120px;
   justify-content: center;
-  text-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 .list-main {
   list-style: none;
