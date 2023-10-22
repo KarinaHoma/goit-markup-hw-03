@@ -67,6 +67,7 @@ img {
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-right: 76px;
   color: var(--Primary-Brand);
 }
 .list-header {
@@ -95,23 +96,13 @@ img {
   text-decoration: none;
   color: var(--Text);
 }
-.menu {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-}
 .accent {
   color: var(--Hero-background);
 }
 .list {
   list-style: none;
   display: flex;
-  padding: 24px 0;
-  margin: 0;
-  margin-left: 76px;
-  margin-bottom: 72px;
+
   justify-content: center;
   gap: 24px;
   color: var(--Dark);
@@ -251,13 +242,13 @@ Fourth main section*/
   padding-bottom: 72px;
 }
 .header-names {
-  font-size: 20x;
+  font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.025em;
   color: var(--Dark);
-  margin: 0px;
+  margin-top: 32px;
 }
 /*Portfolio
 Main section*/
@@ -309,7 +300,6 @@ Main section*/
   color: var(--Dark);
   padding-top: 24px;
   padding-bottom: 24px;
-  gap: 40px;
 }
 .menu:hover,
 .menu:focus,
