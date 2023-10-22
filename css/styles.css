@@ -180,16 +180,16 @@ Second main section*/
   margin-bottom: 8px;
   padding: 0px;
 }
-.body {
+
+.body-secondary {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--Text);
   margin: 0px;
   padding-bottom: 0ch;
-  text-align: center;
+  text-align: left;
 }
-
 /*Index
 Third main section*/
 .section-third {
@@ -218,8 +218,16 @@ Fourth main section*/
   margin: auto 0;
   text-align: center;
 }
-
-.team-card {
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+  margin: 0px;
+  padding-bottom: 0ch;
+  text-align: center;
+}
+- + .team-card {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -297,6 +305,8 @@ Main section*/
   color: var(--Dark);
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.list-menu {
   gap: 40px;
 }
 .menu:hover,
