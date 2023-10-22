@@ -67,7 +67,7 @@ img {
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-right: 76px;
+  margin-right: 76px;
   color: var(--Primary-Brand);
 }
 .list-header {
@@ -79,9 +79,7 @@ img {
   justify-content: center;
   gap: 40px;
 }
-.list-menu {
-  gap: 40px;
-}
+
 .address {
   align-items: center;
   display: flex;
@@ -167,6 +165,9 @@ Second main section*/
   gap: 24px;
   list-style: none;
 }
+.workder-name {
+  padding: 32px 0px;
+}
 .list-secondary {
   width: calc((100% - 72px) / 4);
 }
@@ -186,6 +187,7 @@ Second main section*/
   color: var(--Text);
   margin: 0px;
   padding-bottom: 0ch;
+  text-align: center;
 }
 
 /*Index
@@ -228,9 +230,6 @@ Fourth main section*/
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 72px;
 }
-.cards {
-  margin-bottom: 8px;
-}
 
 .header-our-team {
   font-size: 36px;
@@ -238,7 +237,7 @@ Fourth main section*/
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--Dark);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .header-names {
   font-size: 20px;
@@ -248,6 +247,7 @@ Fourth main section*/
   letter-spacing: 0.025em;
   color: var(--Dark);
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 /*Portfolio
 Main section*/
@@ -297,6 +297,7 @@ Main section*/
   color: var(--Dark);
   padding-top: 24px;
   padding-bottom: 24px;
+  gap: 40px;
 }
 .menu:hover,
 .menu:focus,
@@ -372,6 +373,7 @@ Second main section*/
   text-transform: uppercase;
   color: var(--Primary-Brand);
   display: inline-block;
+  margin-bottom: 16px;
 }
 .container-footer {
   flex-wrap: wrap;
